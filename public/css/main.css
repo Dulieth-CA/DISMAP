@@ -1,0 +1,65 @@
+@font-face {
+    font-family: menu;
+    src: url(../fonts/Lovelo_Black.woff);
+}
+
+.fontM{font-family: menu, sans-serif;color: #000;}
+/*.portadas{position: fixed;z-index: -100}*/
+#portada{position:absolute;z-index:-1;top:0;left:0;}
+#portada1,#portada2{position:absolute;z-index:-2;top:0;left:0;}
+
+body{background: #0A0D1C!important;}
+.nav{/*border-bottom: 1px solid #fff;*/padding: 15px 0;}
+.logo{max-width: 280px!important;width: 100%;}
+.aMenu{margin: 0px 15px;position: relative;top: 11px;color:#fff;font-family: menu, sans-serif;text-decoration: none;}
+#menu{float: right;text-align: right;}
+.login{background-color: #fe4641!important;border-radius:2px;padding:13px 17px;position:relative;top:11px;font-size:18px;}
+.reg{background: #38A215!important;}
+.login:hover,.login:active,.login:visited{color: #fff;top: 12px;}
+
+#titulo{color:#fff;font-family: menu, sans-serif;width: 100%;}
+#titulo>h1{text-align: center;text-shadow: 0px 0px 15px #000;}
+#sec1{position: fixed;width: 100%;}
+
+.d6{width:50%;}
+.txt-center{text-align:center!important;}
+.jump{margin-top:1em!important;}
+.jump-x2{margin-top:2em!important;}
+.jump-x3{margin-top:3em!important;}
+.jump-x4{margin-top:4em!important;}
+.mov{display: none;}
+/* Larger than mobile */
+@media (max-width: 600px) {
+	.pc{display: none;}
+	.mov{display: block;}
+	.hidexs{display: none;}
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	nav>div{margin: 0px 50px;}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	.d6{width:30%;}
+	#menu{width:70%;}
+	nav>div{margin: 0px 50px;}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.d6{width:30%;}
+	#menu{width:70%;}
+	nav>div{margin: 0px 50px;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	nav>div{margin: 0px 100px;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	nav>div{margin: 0px 100px;}
+}
