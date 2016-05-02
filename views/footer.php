@@ -1,0 +1,1 @@
+<script src="<?php echo URL_tmp; ?>public/js/index.js"></script>
